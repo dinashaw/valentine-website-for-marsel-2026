@@ -5,7 +5,7 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Марсель",
+    valentineName: "Марсельчик, любимый",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
@@ -29,8 +29,8 @@ const CONFIG = {
         },
         second: {
             text: "насколько ты меня любишь?",                          // For the love meter
-            startText: "настолько!!!",                                   // Text before the percentage
-            nextBtn: "дальше ❤️"                                         // Text for the next button
+            startText: "настолько!",                                   // Text before the percentage
+            nextBtn: "идем дальше ❤️"                                         // Text for the next button
         },
         third: {
             text: "будешь моим Валентином 14го февраля в этом году? 🌹", // The big question!
@@ -43,13 +43,13 @@ const CONFIG = {
     // They show up depending on how far they slide the meter
     loveMessages: {
         extreme: "ваааау ты любишь меня настолько??? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "с каждым днем только сильнее! 🚀💝",              // Shows when they go past 1000%
+        high: "до луны и обратно 🚀💝",              // Shows when they go past 1000%
         normal: "и еще сильнее! 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "ну тогда я самый счастливый человек на земле 🎉💝💖💝💓",
+        title: "я самый счастливый человек на земле 🎉💝💖💝💓",
         message: "приходи получить праздничный поцелуй и обнимашки",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
