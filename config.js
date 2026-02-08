@@ -28,12 +28,12 @@ const CONFIG = {
             secretAnswer: "ты мне не просто нравишься, я тебя обожаю ❤️"           // Secret hover message
         },
         second: {
-            text: "насколько ты меня любишь?",                          // For the love meter
+            text: "насколько ты меня обожаешь?",                          // For the love meter
             startText: "настолько!",                                   // Text before the percentage
-            nextBtn: "идем дальше ❤️"                                         // Text for the next button
+            nextBtn: "идем дальше"                                         // Text for the next button
         },
         third: {
-            text: "будешь моим Валентином 14го февраля в этом году? 🌹", // The big question!
+            text: "так что, будешь моим Валентином в этом году?", // The big question!
             yesBtn: "да!!",                                             // Text for "Yes" button
             noBtn: "нет"                                                 // Text for "No" button
         }
@@ -43,13 +43,13 @@ const CONFIG = {
     // They show up depending on how far they slide the meter
     loveMessages: {
         extreme: "ваааау ты любишь меня настолько??? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "до луны и обратно 🚀💝",              // Shows when they go past 1000%
+        high: "до луны и обратно 🚀",              // Shows when they go past 1000%
         normal: "и еще сильнее! 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "я самый счастливый человек на земле 🎉💝💖💝💓",
+        title: "я самый счастливый человек на земле 💓",
         message: "приходи целоваться и обниматься",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
